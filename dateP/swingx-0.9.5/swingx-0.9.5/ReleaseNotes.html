@@ -1,0 +1,663 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SwingLabs SwingX Release Notes</title>
+<link rel="stylesheet" type="text/css" href="swinglabs.css" />
+</head>
+<body>
+<div id="container">
+<div id="stitch-hack">
+                <div id="banner">
+                </div>
+                <div id="menu">
+                    <img class="menu-left" src="images/menu-left.png" alt="" /><a href="ReleaseNotes.html">Release Notes</a><img class="menu-right" src="images/menu-right.png" alt="" />
+                    <img class="menu-left" src="images/menu-left.png" alt="" /><a href="README.html">Readme</a><img class="menu-right" src="images/menu-right.png" alt="" />
+                    <img class="menu-left" src="images/menu-left.png" alt="" /><a href="docs/api/index.html">JavaDoc</a><img class="menu-right" src="images/menu-right.png" alt="" />
+                    <img class="menu-left" src="images/menu-left.png" alt="" /><a href="http://swinglabs.org/">Main Website</a><img class="menu-right" src="images/menu-right.png" alt="" />
+                </div>
+<div id="content">
+<div id="section">
+<p><h2><center>Release Notes</center></h2>
+<h4 align="right">Release Date: 31 December 2008<br/>
+This is the 0.9.5 development release</h4></p>
+<h2>Project: SwingX</h2>
+  <p>This release is focused on bugfixes and increased quality of the code with 
+  minimal changes to the  APIs.</p>
+
+<h5>JXLoginPane</h5>
+
+            <p>Bug fixes for issues with resizing, transparency and flickering while 
+            changing views. Updated Javadoc for JXLoginDialog.</p>
+
+<h5>JXLabel, JXHeader</h5>
+
+            <p>Fixed various visual issues mainly in UIDelegates and improved text 
+            layout functionality.</p>
+
+<h5>JXDatePicker, JXMonthView</h5>
+
+            <p>Various fixes have been implemented for the above mentioned 
+            components to solve visual and behavioral issues reported by users.</p>
+
+<h5>JXComboBox, Autocomplete</h5>
+
+            <p>Various fixes for usability issues issues reported by users.</p>
+
+<h5>JXTable, JXTreeTable, Highligters</h5>
+
+            <p>Fixed Highlighter issues in JXTreeTable. Updated Javadoc. Solved issues 
+            with cell editing.</p>
+
+<h5>Project structure</h5>
+
+            <p>Bean info have been split into separate jar to reduce total size of binary 
+            and to allow NetBeans and other UI to provide customized bean 
+            implementation to improve SwingX usage experience in the IDE visual editors.</p>
+
+
+<h5>Resolved Issues</h5>
+<p>Following list of 38 items contains all the issues and improvements 
+included in release 0.9.5.</p>
+<p>We would also like to thank to all who actively contributed to this release, namely:</p>
+<ul>
+<li>Jeanette Winzenburg (kleopatra)</li>
+<li>Karl Schaefer (kschaefe)</li>
+<li>Luan O'Carroll (luano)</li>
+<li>Richard Bair (rbair)</li>
+<li>Jan Haderka (rah003)</li>
+</ul>
+<p></p>
+     <table width="100%">
+        <tbody><tr>
+<th colspan="6">Sat Dec 31 13:07:08 +0000 2008</th>
+        </tr>
+        <tr>
+<th>ID</th>
+<th>Type</th>
+<th>Pri</th>
+<th>Component</th>
+<th>Votes</th>
+<th>Summary</th>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=914">914</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">build an</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">Add swingx-beaninfo.jar to incubator update</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=851">851</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">All webpages: Update links to Hudson automated builds</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=947">947</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P1</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">Autocomplete for JCombobox throws ClassCastException</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=854">854</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P1</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">BasicErrorPaneUI method getErrorDialog(Component owner) thro</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=932">932</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">BasicMonthViewUI: must not override custom setting with ui-d</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=939">939</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">Bold title switches to plain title on a LAF switch</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=943">943</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P1</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">double clicking autocomplete JCombo thows exception.</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=950">950</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">EyeDropperChooserPanel uses getClass()</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=933">933</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">focusListener does not work on JXDatePicker</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=927">927</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">ImagePainter doesn't paint centered scaled images</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=945">945</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXDatePicker DataFormats don't track default Locale if no pr</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=965">965</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXDatePicker: JInternalFrame tears with open JXDatePicker-Ca</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=944">944</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXFindPanel needs I18N - Value not found</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=925">925</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXHeader: looses custom properties on updateUI</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=941">941</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">1</span>
+	</td>
+	<td class="red"><span class="summary">JXHeader: lost wrapping on updateUI/toggle laf</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=871">871</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">build an</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXLabel and JXBusyLabel are not present in META-INF\Manifest</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=645">645</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXLabel doesn't paint bg (by bgPainter) when opaque = true</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=958">958</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXLoginPane intermittently loses banner</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=571">571</a>
+	</td>
+	<td class="purple"><span class="issue_type">ENHANC</span>
+	</td>
+	<td class="purple"><span class="priority">P3</span>
+	</td>
+	<td class="purple"><span class="component">swingx</span>
+	</td>
+	<td class="purple"><span class="votes">10</span>
+	</td>
+	<td class="purple"><span class="summary">JXLoginPanel - Disable editing of the username, and add abil</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=750">750</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">5</span>
+	</td>
+	<td class="red"><span class="summary">JXMonthView: antialiased must follow OS/LAF default setting</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=931">931</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXMonthView: incompleted property change notification</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=934">934</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXMonthView: incorrect layout on Locale change</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=926">926</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXMonthView: set unselectables dynamically doesn't update vi</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=962">962</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXPanel.initPainterSupport breaks UI delegates</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=936">936</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXRootPane: statusbar doesn' show up defaultlafDecoration</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=891">891</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P2</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">2</span>
+	</td>
+	<td class="red"><span class="summary">JXStatusBar crashes when dragged into Netbeans GUI Builder</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=121">121</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P2</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXTree javadoc needs more detail</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=730">730</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">JXTreeTable doesn't call stopCellEditing consistently when t</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=971">971</a>
+	</td>
+	<td><span class="issue_type">TASK</span>
+	</td>
+	<td><span class="priority">P3</span>
+	</td>
+	<td><span class="component">swingx</span>
+	</td>
+	<td><span class="votes">0</span>
+	</td>
+	<td><span class="summary">Move Renderer package flyweights into zoo classes</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=938">938</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P1</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">NullPointerException in AutoCompleteDocument</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=953">953</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">NullPointerException when asking for a TreeTableModel too ea</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=951">951</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P1</span>
+	</td>
+	<td class="red"><span class="component">build an</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">REGRESSION: JXMonthView looks weird in form editor NetBeans </span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=836">836</a>
+	</td>
+	<td><span class="issue_type">TASK</span>
+	</td>
+	<td><span class="priority">P3</span>
+	</td>
+	<td><span class="component">build an</span>
+	</td>
+	<td><span class="votes">0</span>
+	</td>
+	<td><span class="summary">Remove deprecated code with tag pre-0.9.3 or older</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=832">832</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">build an</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">Remove unresolved gradient dependencies</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=292">292</a>
+	</td>
+	<td class="purple"><span class="issue_type">ENHANC</span>
+	</td>
+	<td class="purple"><span class="priority">P3</span>
+	</td>
+	<td class="purple"><span class="component">swingx</span>
+	</td>
+	<td class="purple"><span class="votes">1</span>
+	</td>
+	<td class="purple"><span class="summary">Searchable Highlighter not available in the JXTreeTable</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=901">901</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">build an</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">Split beaninfo from main jar</span>
+	</td>
+</tr>
+<tr class="b">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=954">954</a>
+	</td>
+	<td><span class="issue_type">TASK</span>
+	</td>
+	<td><span class="priority">P3</span>
+	</td>
+	<td><span class="component">swingx</span>
+	</td>
+	<td><span class="votes">0</span>
+	</td>
+	<td><span class="summary">Support match marker by Highlgihter consistently</span>
+	</td>
+</tr>
+<tr class="a">
+	<td>
+ 	<a href="https://swingx.dev.java.net/issues/show_bug.cgi?id=919">919</a>
+	</td>
+	<td class="red"><span class="issue_type">DEFECT</span>
+	</td>
+	<td class="red"><span class="priority">P3</span>
+	</td>
+	<td class="red"><span class="component">swingx</span>
+	</td>
+	<td class="red"><span class="votes">0</span>
+	</td>
+	<td class="red"><span class="summary">Wrapped text is too wide when label is embeded in pane with </span>
+	</td>
+</tr>
+</tbody></table>
+<p>
+</p>
+</div>
+</div>
+<div id="footer">
+</div>
+</div>
+</div>
+</body>
+</html>
